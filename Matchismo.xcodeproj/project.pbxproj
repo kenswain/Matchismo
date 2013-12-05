@@ -112,8 +112,6 @@
 		BE5658B41850223100518306 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				BE5658BD1850223100518306 /* CardGameAppDelegate.h */,
-				BE5658BE1850223100518306 /* CardGameAppDelegate.m */,
 				BE5658C01850223100518306 /* Main.storyboard */,
 				BE5658C31850223100518306 /* CardGameViewController.h */,
 				BE5658C41850223100518306 /* CardGameViewController.m */,
@@ -126,6 +124,8 @@
 		BE5658B51850223100518306 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE5658BD1850223100518306 /* CardGameAppDelegate.h */,
+				BE5658BE1850223100518306 /* CardGameAppDelegate.m */,
 				BE5658B61850223100518306 /* Matchismo-Info.plist */,
 				BE5658B71850223100518306 /* InfoPlist.strings */,
 				BE5658BA1850223100518306 /* main.m */,
