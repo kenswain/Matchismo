@@ -13,7 +13,7 @@
 @implementation Card
 
 
-- (int)match:(Card *)card
+- (int)match:(NSArray *)otherCards
 {
     int score =0;
     for (Card *card in otherCards) {
