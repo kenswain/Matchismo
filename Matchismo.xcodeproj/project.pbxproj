@@ -23,6 +23,7 @@
 		BE5658DA1850223100518306 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5658D91850223100518306 /* MatchismoTests.m */; };
 		BE598A0A1857DF9500F14726 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = BE598A091857DF9500F14726 /* Card.m */; };
 		BE598A0D1857E3E000F14726 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = BE598A0C1857E3E000F14726 /* Deck.m */; };
+		BE598A101857E8A000F14726 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BE598A0F1857E8A000F14726 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		BE598A091857DF9500F14726 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		BE598A0B1857E3E000F14726 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		BE598A0C1857E3E000F14726 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		BE598A0E1857E8A000F14726 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		BE598A0F1857E8A000F14726 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				BE598A081857DF9500F14726 /* Card.h */,
 				BE598A091857DF9500F14726 /* Card.m */,
 				BE598A0B1857E3E000F14726 /* Deck.h */,
+				BE598A0E1857E8A000F14726 /* PlayingCard.h */,
+				BE598A0F1857E8A000F14726 /* PlayingCard.m */,
 				BE598A0C1857E3E000F14726 /* Deck.m */,
 			);
 			path = Matchismo;
@@ -260,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE598A101857E8A000F14726 /* PlayingCard.m in Sources */,
 				BE598A0D1857E3E000F14726 /* Deck.m in Sources */,
 				BE5658BF1850223100518306 /* CardGameAppDelegate.m in Sources */,
 				BE5658C51850223100518306 /* CardGameViewController.m in Sources */,
